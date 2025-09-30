@@ -6,7 +6,7 @@ export default new DataSource({
   port: 3306,
   username: 'root',
   password: '1234', // IMPORTANTE: Coloque sua senha do MySQL aqui
-  database: 'todo-backend', // IMPORTANTE: Coloque o nome do banco de dados que você criou no MySQL Workbench aqui
+  database: 'tarefas', // IMPORTANTE: Coloque o nome do banco de dados que você criou no MySQL Workbench aqui
 
   entities: [__dirname + '/**/*.entity{.ts,.js}'],
 
